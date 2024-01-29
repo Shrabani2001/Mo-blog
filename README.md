@@ -11,8 +11,8 @@ The aim of this endeavor is to create a personal blog where the  blog will facil
 
 The template is a working application with a minimal setup. It contains:
  * application skeleton
- * common repository and libraries
- * Spring web, Dev tool and thymleaf setup
+ * common plugin and libraries
+ * Spring web, dev tool, thymeleaf, lombok setup
  * HTML CSS for frontend and Java for backend development
 
  The application exposes by (http://localhost:1200/)
