@@ -26,6 +26,7 @@ Annotation on Main Class :
 Annotation on Controller Class :
 
 @Controller
+
 @GetMapping
 @PostMapping
 @RequestParam
