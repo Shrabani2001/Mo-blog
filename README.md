@@ -28,14 +28,17 @@ Annotation on Controller Class :
 @Controller
 
 @GetMapping
+
 @PostMapping
+
 @RequestParam
+
 @ModelAttribute
 
 Annotation on Java Class :
 @Data
 
-Disclaimer:
+## Disclaimer:
 
 This tool is for educational purposes only, the author do not endorse or promote any illegal activity and are not responsible for any damage done henceforth.
  
