@@ -15,5 +15,5 @@ The template is a working application with a minimal setup. It contains:
  * Spring web, dev tool, thymeleaf, lombok setup
  * HTML CSS for frontend and Java for backend development
 
- The application exposes by (http://localhost:1200/)
+ The application exposes by (http://localhost:1200)
  
