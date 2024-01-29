@@ -101,3 +101,7 @@ section {
     background-color: rgb(4, 80, 4);
     transform: scale(1.05);
 }
+
+.justify-left {
+    text-align: justify;
+}
