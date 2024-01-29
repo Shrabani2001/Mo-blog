@@ -1,5 +1,6 @@
-# A BlogWebsite with Spring Boot
-
+# Spring Boot-powered Blogging Site
+<p align="center">
+ <img src = "https://firstsiteguide.com/wp-content/uploads/2018/04/The-best-blogging-sites.png" width =500/>
 ## Purpose
 
 The purpose of this template is to speed up the creation of new Spring applications within HMCTS
