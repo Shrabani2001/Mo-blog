@@ -1,8 +1,10 @@
-package com.moblog.dev;
+package com.moblog.dev.service;
 
 import java.util.*;
 
 import org.springframework.stereotype.Service;
+
+import com.moblog.dev.Blog;
 
 import lombok.RequiredArgsConstructor;
 
