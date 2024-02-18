@@ -85,20 +85,42 @@ section {
     grid-area: link;
 }
 
-.blogs a {
+.explore {
     text-decoration: none;
     display: inline-block;
     color: #d1c0c0;
     background-color: rgb(6, 105, 6);
     border-radius: 5px;
-    padding: 0.4rem;
-    width: 65px;
+    padding: 0.4rem 0.4rem;
+    margin-top: 1rem;
+    width: 66px;
+    height: 35px;
     transition: background-color 0.3s ease, transform 0.2s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.blogs a:hover {
+.explore:hover {
     background-color: rgb(4, 80, 4);
+    transform: scale(1.05);
+}
+
+.delete {
+    text-decoration: none;
+    margin-left: 100px;
+    display: inline-block;
+    color: #d1c0c0;
+    background-color: red;
+    border-radius: 5px;
+    padding: 0.4rem 0.6rem;
+    margin-top: 1rem;
+    width: 65px;
+    height: 34px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.delete:hover {
+    background-color: rgb(131, 6, 6);
     transform: scale(1.05);
 }
 

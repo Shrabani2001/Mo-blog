@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.moblog.dev.service.BlogService;
+
 import lombok.RequiredArgsConstructor;
 
 @Controller
@@ -38,4 +40,11 @@ public class BlogController {
         blogService.addBlog(blog);
         return "redirect:/blogs"; // redirect to blogs controller not html page
     }
+
+    @GetMapping({ "/delete-blog" })
+    public String deleteBlog(@RequestParam int id) {
+        blogService.deleteBlog(id);
+        return "redirect:/blogs"; // Redirect back to the current page
+    }
+
 }
