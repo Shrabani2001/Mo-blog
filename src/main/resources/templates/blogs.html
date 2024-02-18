@@ -15,7 +15,8 @@
                     <h2 data-th-text="${loop.index+1} > 9 ? ${loop.index+1} : '0'+ ${loop.index+1}"></h2>
                     <h2 data-th-text="${blog.heading}"></h2>
                     <p data-th-utext="${blog.description}"></p>
-                    <a data-th-href="|/blog?id=${loop.index}|">Explore</a>
+                    <a class="explore" data-th-href="|/blog?id=${blog.id}|">Explore</a>
+                    <a class="delete" data-th-href="|/delete-blog?id=${blog.id}|">Delete</a>
                 </article>
 
             </div>
