@@ -12,13 +12,15 @@
 
             <div class="blogs">
                 <article class="blog" data-th-each="blog, loop : ${blogs}">
-                    <h2 data-th-text="${loop.index+1} > 9 ? ${loop.index+1} : '0'+ ${loop.index+1}"></h2>
+                    <h2 data-th-text="${loop.index + 1} > 9 ? ${loop.index + 1} : '0' + ${loop.index + 1}"></h2>
                     <h2 data-th-text="${blog.heading}"></h2>
                     <p data-th-utext="${blog.description}"></p>
-                    <a class="explore" data-th-href="|/blog?id=${blog.id}|">Explore</a>
-                    <a class="delete" data-th-href="|/delete-blog?id=${blog.id}|">Delete</a>
+                    <div>
+                        <a class="explore" data-th-href="|/blog?id=${blog.id}|">Explore</a>
+                        <a class="update" data-th-href="|/update-blog?id=${blog.id}|">Update</a>
+                        <a class="delete" data-th-href="|/delete-blog?id=${blog.id}|">Delete</a>
+                    </div>
                 </article>
-
             </div>
         </section>
     </main>
