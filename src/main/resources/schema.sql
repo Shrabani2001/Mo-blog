@@ -1,0 +1,10 @@
+CREATE SCHEMA IF NOT EXISTS `mo_blog`;
+
+USE mo_blog;
+
+-- CREATE TABLE IF NOT EXISTS `mo_blog`.`blog`(
+CREATE TABLE IF NOT EXISTS `blog`(
+id INT AUTO_INCREMENT PRIMARY KEY,
+heading TINYTEXT,
+description MEDIUMTEXT
+);
